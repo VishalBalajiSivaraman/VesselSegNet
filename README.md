@@ -66,14 +66,14 @@ This project was run in the a custom kernel housing all the dependencies mention
 Alternative Approach: The project scripts titled 'Retina_Segmentation_Data_Pre_processing.ipynb' & 'Retina_Segmentation_TF.ipynb' can be excuted in the Tensorflow-2.4.1 kernel on HiPerGator while the validation script titled 'Retina_Segment_Eval_Script.ipynb' can be excuted in colab with ease.  
 
 ### Memory Requirements
-The scripts were run in a bespoke environment with 100 GB of RAM, two CPU cores, and five GPU cores. However, the proposed scripts titled 'Retina_Segmentation_Data_Pre_processing.ipynb' and 'Retina_Segment_Eval_Script.ipynb' consume less resources while performing their tasks and thus can be executed on a custom environment with minimal resources, whereas the script titled 'Retina_Segmentation_TF.ipynb' requires a significant portion of resourcesinorder to perform complex compuutataions with ease , thus requiring a custom environment with moderate resources for optimal performance.
+The scripts were run in a bespoke environment with 100 GB of RAM, two CPU cores, and five Nvida GPU cores (preferably A100's). However, the proposed scripts titled 'Retina_Segmentation_Data_Pre_processing.ipynb' and 'Retina_Segment_Eval_Script.ipynb' consume less resources while performing their tasks and thus can be executed on a custom environment with minimal resources, whereas the script titled 'Retina_Segmentation_TF.ipynb' requires a significant portion of resourcesinorder to perform complex compuutataions with ease , thus requiring a custom environment with moderate resources for optimal performance.
 
 
 **Memory Summary**
 
-* ```Retina_Segmentation_Data_Pre_processing.ipynb```: For optimal performance, a minimum of 16 GB RAM, 2 cores, and a single GPU core are required.
-* ```Retina_Segmentation_TF.ipynb```: For optimal performance, a minimum of 40-50 GB RAM, two CPUs, and at least two GPU cores are required.
-* ```Retina_Segment_Eval_Script.ipynb```: For optimal performance, a minimum of 16 GB RAM, 2 cores, and a single GPU core are required.
+* ```Retina_Segmentation_Data_Pre_processing.ipynb```: For optimal performance, a minimum of 16 GB RAM, 2 cores, and a single Nvidia GPU core are required.
+* ```Retina_Segmentation_TF.ipynb```: For optimal performance, a minimum of 40-50 GB RAM, two CPUs, and at least two Nvidia GPU cores are required.
+* ```Retina_Segment_Eval_Script.ipynb```: For optimal performance, a minimum of 16 GB RAM, 2 cores, and a single Nvidia GPU core are required.
 
 ### Installation
 
